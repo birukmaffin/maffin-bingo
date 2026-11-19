@@ -1,0 +1,6 @@
+{
+  "appId": "com.maffin.bingo",
+  "appName": "MAFFIN BINGO",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}

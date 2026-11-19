@@ -1,0 +1,19 @@
+{
+  "name": "maffin-bingo",
+  "version": "1.0.0",
+  "description": "MAFFIN BINGO - offline Bingo management",
+  "main": "main.js",
+  "author": "Maffin Bingo",
+  "scripts": {
+    "prebuild": "node copy-app.js",
+    "start": "node copy-app.js && electron .",
+    "build": "electron-builder --win nsis portable"
+  },
+  "devDependencies": { "electron": "^33.0.0", "electron-builder": "^25.0.0" },
+  "build": {
+    "appId": "com.maffin.bingo",
+    "productName": "MAFFIN BINGO",
+    "files": ["main.js", "app/**/*"],
+    "win": { "icon": "app/icons/icon-256.png", "target": ["nsis", "portable"] }
+  }
+}
