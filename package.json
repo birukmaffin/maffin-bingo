@@ -1,0 +1,25 @@
+{
+  "name": "maffin-bingo",
+  "version": "1.1.0",
+  "description": "MAFFIN BINGO - offline Bingo management by Maffin Technologies",
+  "main": "main.js",
+  "author": "Maffin Technologies <jrmaffin@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node copy-app.js && electron .",
+    "build": "node copy-app.js && electron-builder --win nsis portable --publish never"
+  },
+  "devDependencies": {
+    "@fontsource/noto-sans-ethiopic": "^5.0.0",
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.maffin.bingo",
+    "productName": "MAFFIN BINGO",
+    "directories": { "output": "dist" },
+    "files": ["main.js", "app/**/*"],
+    "win": { "icon": "app/icons/icon-256.png", "target": ["nsis", "portable"] },
+    "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true }
+  }
+}

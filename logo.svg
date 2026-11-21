@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240"><defs><linearGradient id="bgl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a1a8a"/><stop offset="1" stop-color="#14062f"/></linearGradient><linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6b8"/><stop offset=".5" stop-color="#ffc83d"/><stop offset="1" stop-color="#d98e00"/></linearGradient></defs><rect width="720" height="240" rx="30" fill="url(#bgl)"/><svg x="24" y="34" width="200" height="172" viewBox="0 0 140 120"><defs>
+<linearGradient id="cg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6b8"/><stop offset=".45" stop-color="#ffcf3a"/><stop offset="1" stop-color="#c47a00"/></linearGradient>
+<linearGradient id="cg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e49a00"/><stop offset=".5" stop-color="#fff0a0"/><stop offset="1" stop-color="#e49a00"/></linearGradient>
+<radialGradient id="rr" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#ff6f8d"/><stop offset="1" stop-color="#a3102f"/></radialGradient>
+<radialGradient id="rg" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#4be88f"/><stop offset="1" stop-color="#0a7a3a"/></radialGradient>
+<radialGradient id="rb" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset=".35" stop-color="#63b0ff"/><stop offset="1" stop-color="#1450a8"/></radialGradient></defs>
+<ellipse cx="70" cy="113" rx="50" ry="4.5" fill="#000" opacity=".28"/>
+<path d="M20 96 L10 40 L42 68 L70 24 L98 68 L130 40 L120 96 Z" fill="url(#cg1)" stroke="#8a5600" stroke-width="3.2" stroke-linejoin="round"/>
+<path d="M42 68 L50 96 M70 24 L70 96 M98 68 L90 96" stroke="#a86b00" stroke-width="2" opacity=".5" fill="none"/>
+<path d="M26 89 L18 52 L39 70" stroke="#fff8c8" stroke-width="2.6" opacity=".75" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="17" y="94" width="106" height="17" rx="6" fill="url(#cg2)" stroke="#8a5600" stroke-width="3"/>
+<circle cx="38" cy="102.5" r="4" fill="url(#rb)"/><circle cx="70" cy="102.5" r="4.6" fill="url(#rr)"/><circle cx="102" cy="102.5" r="4" fill="url(#rg)"/>
+<circle cx="10" cy="36" r="8.5" fill="url(#rr)" stroke="#8a5600" stroke-width="2.2"/><circle cx="70" cy="18" r="9.6" fill="url(#rg)" stroke="#8a5600" stroke-width="2.2"/><circle cx="130" cy="36" r="8.5" fill="url(#rb)" stroke="#8a5600" stroke-width="2.2"/>
+<circle cx="7.4" cy="33.2" r="2" fill="#fff" opacity=".9"/><circle cx="66.8" cy="14.6" r="2.3" fill="#fff" opacity=".9"/><circle cx="127.4" cy="33.2" r="2" fill="#fff" opacity=".9"/>
+<path d="M118 8l1.8 4.6 4.6 1.8-4.6 1.8L118 21l-1.8-4.8-4.6-1.8 4.6-1.8z" fill="#fff6b8"/>
+</svg><text x="250" y="130" font-family="Erica One" font-size="92" fill="url(#tg)" letter-spacing="3">MAFFIN</text><text x="254" y="190" font-family="Erica One" font-size="50" fill="#ffffff" letter-spacing="26">BINGO</text></svg>
